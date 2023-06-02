@@ -1,0 +1,17 @@
+.form-input {
+  @apply space-y-2 font-plus-jakarta-sans;
+  label {
+    @apply font-semibold text-neutral-500 text-lg;
+  }
+  .password_inputed {
+    @apply relative;
+  }
+}
+
+.btn {
+  @apply py-3 px-5 rounded-md shadow shadow-neutral-200;
+}
+
+.alert {
+  @apply border border-red-500 rounded-lg text-red-500 bg-red-500/10 text-center font-semibold p-5 font-plus-jakarta-sans;
+}
